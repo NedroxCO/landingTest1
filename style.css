@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.home__container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; /* Centra horizontalemente */
+}
+
+@media (max-width: 768px) {
+    .home__container{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
