@@ -1,3 +1,6 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +10,7 @@
 }
 
 .home__container{
-    display: flex;
+    display: grid;
     margin: 0 auto;
     justify-content: center; /* Centra horizontalemente */
 }
